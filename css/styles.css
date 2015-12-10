@@ -1,3 +1,5 @@
+/* Gradient Background */
+
 body {
     background: #16222A; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #16222A , #3A6073); /* Chrome 10-25, Safari 5.1-6 
@@ -9,25 +11,35 @@ body {
 }
 
 
-nav {
-    display: inline;
-}
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: line-through;
-    
-}
+/* Navigation Bar */
 
 ul {
-    text-decoration: none;
-    list-style: none;
-    color: white;
-    
-    
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
 }
 
+li {
+ float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;   
+}
+
+li a:hover {
+    background-color: blueviolet;
+}
+
+
+/* Selfie on About Page */
+img {
+    max-width: 40%;
+    min-width: 20%;    
+}
