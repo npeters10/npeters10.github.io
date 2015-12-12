@@ -19,15 +19,23 @@ a {
     padding: 0 5%;
 }
 
-ul {
-    list-style: none;
-}
 
+img {
+    max-width: 100%;
+    
+}
 
 
 /*************************
 Heading
 *************************/
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
 
 #logo {
     text-align: center;
@@ -60,7 +68,20 @@ nav {
     margin: 20px 0 0;
 }
 
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
 
+nav li {
+     display: inline-block;
+}
+
+nav a {
+    font-weight: 700;
+    padding: 15px 10px;
+}
 
 /*************************
 Footer
@@ -72,9 +93,35 @@ footer {
     padding-top: 50px;
     background: #A2B6A6;
     color: #D9DFD6;
+    clear: both;
 }
 
 
+
+/*************************
+Page Portfolio
+*************************/
+
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #D9DFD6;
+    color: #3D444F;
+}
+
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #3D444F;
+}
 
 /*************************
 Colors
@@ -127,7 +174,7 @@ svg {
 
 
 /* Selfie on About Page */
-img {
+img.selfie {
     max-width: 30%;
     min-width: 20%;
     border-radius: 50%;
