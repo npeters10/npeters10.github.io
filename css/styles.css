@@ -1,5 +1,10 @@
+body {
+    
+}
+
 a {
     text-decoration: none;
+    color: lightgray;
 }
 
 #wrap {
@@ -8,14 +13,30 @@ a {
     padding: 0 5%;
 }
 
+#logo {
+    text-align: center;
+    margin: 0;
+    font-family: 'PT Mono', ;
+}
 
+header {
+    color: dimgray;
+    border-color: black;
+    
+}
 
+h1, h2 {
+    color: slategray;
+    font-family: 'PT Mono', ;
+}
 
 svg {
     width: 15px;
     height: 15px;
     
 }
+
+
 
 /* Selfie on About Page */
 img {
