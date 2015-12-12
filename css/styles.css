@@ -83,19 +83,6 @@ nav a {
     padding: 15px 10px;
 }
 
-/*************************
-Footer
-*************************/
-
-footer {
-    font-size: 0.75em;
-    text-align: center;
-    padding-top: 50px;
-    background: #A2B6A6;
-    color: #D9DFD6;
-    clear: both;
-}
-
 
 
 /*************************
@@ -180,3 +167,24 @@ img.selfie {
     border-radius: 50%;
     box-shadow: 0 0 6px rgba(0,0,0,.2)
 }
+
+
+
+/*************************
+Media Queries
+*************************/
+
+@media screen and (min-width: 480px) {
+    body {
+        background: teal;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    body {
+        background: green;
+    }
+}
+
+
+
