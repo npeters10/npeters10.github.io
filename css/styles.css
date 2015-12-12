@@ -43,3 +43,5 @@ img {
     max-width: 40%;
     min-width: 20%;    
 }
+
+a:hover a:focus
