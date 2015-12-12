@@ -1,10 +1,10 @@
 body {
-    
+    font-family: 'Old Standard TT', serif;
 }
 
 a {
     text-decoration: none;
-    color: lightgray;
+    color: slategray;
 }
 
 #wrap {
@@ -20,14 +20,21 @@ a {
 }
 
 header {
-    color: dimgray;
-    border-color: black;
+    background: slategray; 
     
 }
 
 h1, h2 {
-    color: slategray;
+    color: black;
     font-family: 'PT Mono', ;
+}
+
+nav {
+    background: black;
+}
+
+nav a, nav a:visited {
+    color: whitesmoke;
 }
 
 svg {
