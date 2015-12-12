@@ -1,10 +1,16 @@
+/*************************
+GENERAL
+*************************/
+
 body {
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5em;
 }
 
 a {
     text-decoration: none;
-    color: slategray;
+    color: #3D444F;
+    list-style: none;
 }
 
 #wrap {
@@ -13,29 +19,104 @@ a {
     padding: 0 5%;
 }
 
+ul {
+    list-style: none;
+}
+
+
+
+/*************************
+Heading
+*************************/
+
 #logo {
     text-align: center;
     margin: 0;
-    font-family: 'PT Mono', ;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-header {
-    background: slategray; 
-    
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
 }
 
-h1, h2 {
-    color: black;
-    font-family: 'PT Mono', ;
+h2 {
+    font-size: 1.25em;
+    font-weight: normal;
 }
+
+
+
+/*************************
+Navigation
+*************************/
 
 nav {
-    background: black;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
 }
 
-nav a, nav a:visited {
-    color: whitesmoke;
+
+
+/*************************
+Footer
+*************************/
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px;
+    background: #A2B6A6;
+    color: #D9DFD6;
 }
+
+
+
+/*************************
+Colors
+*************************/
+
+/* Site Body */
+body {
+    background-color: #D9DFD6;
+    color: #3D444F;
+}
+
+/* Grey Header */
+header {
+    background: #3D444F;
+    padding: .2em;
+}
+
+/* Nav  Background on Mobile */
+nav {
+    background: #AC5333;
+}
+
+/* Logo Text */
+h1, h2 {
+    color: #AC5333;
+}
+
+/* Nav  Link */
+nav a, nav a:visited {
+    color: #D9DFD6;
+}
+
+/* Selected Nav  Link */
+nav a.selected, nav a:hover {
+    color: #A2B6A6;   
+}
+
+/* Hover Link Color */
+a:hover {
+    color: #A2B6A6
+}
+
 
 svg {
     width: 15px;
@@ -47,6 +128,8 @@ svg {
 
 /* Selfie on About Page */
 img {
-    max-width: 40%;
-    min-width: 20%;    
+    max-width: 30%;
+    min-width: 20%;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(0,0,0,.2)
 }
